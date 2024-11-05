@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+
+## Screenshot 1
+<img src='https://github.com/surajgujarathi/filemanagerui/blob/main/assets/Simulator%20Screenshot%20-%20iPhone%2016%20-%202024-11-05%20at%2013.11.50.png' height=400/>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
