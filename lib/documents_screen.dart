@@ -43,10 +43,12 @@ class DocumentScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Center(
-            child: Text(
+        backgroundColor: const Color.fromARGB(255, 21, 20, 20),
+        scrolledUnderElevation: 0,
+        centerTitle: true,
+        title: const Text(
           'Documents',
-        )),
+        ),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_rounded),
           onPressed: () {

@@ -10,6 +10,7 @@ class FileManagerScreen extends StatelessWidget {
     return Scaffold(
       // backgroundColor: Colors.black,
       appBar: AppBar(
+        scrolledUnderElevation: 0,
         centerTitle: true,
         backgroundColor: const Color.fromARGB(255, 21, 20, 20),
         title: const Text(

@@ -15,7 +15,7 @@ class ArcPainter extends CustomPainter {
       ..style = PaintingStyle.stroke
       ..strokeCap = StrokeCap.round; // Rounded edges
 
-    final Rect rect = Rect.fromLTWH(0, 0, size.width, size.height);
+    final Rect rect = Rect.fromLTWH(1, 0, size.width, size.height);
     final startAngle = -3.14 / 2; // Start from the top
     final sweepAngle = 2 * 3.14 * progress; // Sweep based on progress
 
